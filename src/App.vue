@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <CountdownComponent />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CountdownComponent from './components/CountdownComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CountdownComponent
   }
 }
 </script>
